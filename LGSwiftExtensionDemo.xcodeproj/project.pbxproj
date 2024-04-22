@@ -16,6 +16,7 @@
 		01539F3C2BCC319E0021B5A3 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01539F3B2BCC319E0021B5A3 /* UIColor+Extension.swift */; };
 		01539F3E2BCC33670021B5A3 /* MyHelperCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01539F3D2BCC33670021B5A3 /* MyHelperCompatible.swift */; };
 		01539F402BCC38B20021B5A3 /* MyWrappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01539F3F2BCC38B20021B5A3 /* MyWrappable.swift */; };
+		22E0603E2BD5F2330060F599 /* UIVewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E0603D2BD5F2330060F599 /* UIVewController+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		01539F3B2BCC319E0021B5A3 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		01539F3D2BCC33670021B5A3 /* MyHelperCompatible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHelperCompatible.swift; sourceTree = "<group>"; };
 		01539F3F2BCC38B20021B5A3 /* MyWrappable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWrappable.swift; sourceTree = "<group>"; };
+		22E0603D2BD5F2330060F599 /* UIVewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVewController+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				01539F2B2BCC30E50021B5A3 /* ViewController.swift */,
 				01539F3D2BCC33670021B5A3 /* MyHelperCompatible.swift */,
 				01539F3B2BCC319E0021B5A3 /* UIColor+Extension.swift */,
+				22E0603D2BD5F2330060F599 /* UIVewController+Extension.swift */,
 				01539F3F2BCC38B20021B5A3 /* MyWrappable.swift */,
 				01539F2D2BCC30E50021B5A3 /* Main.storyboard */,
 				01539F302BCC30E70021B5A3 /* Assets.xcassets */,
@@ -149,6 +152,7 @@
 			files = (
 				01539F2C2BCC30E50021B5A3 /* ViewController.swift in Sources */,
 				01539F282BCC30E50021B5A3 /* AppDelegate.swift in Sources */,
+				22E0603E2BD5F2330060F599 /* UIVewController+Extension.swift in Sources */,
 				01539F2A2BCC30E50021B5A3 /* SceneDelegate.swift in Sources */,
 				01539F3C2BCC319E0021B5A3 /* UIColor+Extension.swift in Sources */,
 				01539F402BCC38B20021B5A3 /* MyWrappable.swift in Sources */,

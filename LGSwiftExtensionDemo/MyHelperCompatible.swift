@@ -9,10 +9,17 @@ import Foundation
 
 public protocol MyHelperCompatible {
     associatedtype someType
+    static var my: someType.Type { get }
     var my: someType { get }
 }
 
 public extension MyHelperCompatible {
+    static var my: MyHelper<Self>.Type {
+        get {
+            MyHelper<Self>.self
+        }
+    }
+    
     var my: MyHelper<Self> {
         get {
             let a = MyHelper(self)

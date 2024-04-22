@@ -26,13 +26,3 @@ public struct MyWrap<Base> {
     }
 }
 
-extension UIViewController: MyWrappable {}
-
-extension MyWrap where Base: UIViewController {
-    
-    @discardableResult
-    func toImage() -> UIImage {
-        UIImage()
-    }
-    
-}

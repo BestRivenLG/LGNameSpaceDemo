@@ -19,6 +19,8 @@ class ViewController: UIViewController {
         UIColor.red.my.toImage()
         
         my.toImage()
+        
+        UIViewController.my.descript
     }
     
 
